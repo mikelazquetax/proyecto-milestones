@@ -13,10 +13,10 @@ export class AddMonthComponent implements OnInit {
    
   }
 
-  onButtonClick(){
+/*   onButtonClick(){
     console.log('añadir Milestone')
     this.isViewFirst = !this.isViewFirst
     console.log(this.isViewFirst)
     
-  }
+  } */
 }

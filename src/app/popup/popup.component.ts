@@ -75,6 +75,7 @@ export class PopupComponent implements OnInit  {
    }else{
     this.data.push(miles)
     this.shown = !this.shown
+
    this.messageEvent.emit(this.data)
 
    }

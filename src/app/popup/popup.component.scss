@@ -31,6 +31,10 @@
 .modal-header .title{
     font-size: 1.25rem;
     font-weight: bold;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin-left: 150px
 }
 
 .modal-header .close-button{
@@ -50,9 +54,37 @@
     flex-direction: column;
     margin-top: 2%;
     padding-block: 2%;
+    input{
+        margin-bottom: 1%;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: #242454;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    
 
 }
 
 .textArea{
     padding: 10%;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ok{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    button{
+       padding: 1% ;
+       width: 50%;
+       background-color: white;
+       cursor: pointer;
+       font-weight: bold;
+       border-width: 5px;
+       border-color: #EC5C44;
+       &:hover{
+           background-color:rgb(161, 131, 131);;
+       }
+    }
 }

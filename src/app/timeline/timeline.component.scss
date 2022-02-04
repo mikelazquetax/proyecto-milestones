@@ -105,6 +105,9 @@
         border-block-color: #EC5C44;
         &.tachado{
             text-decoration: line-through;
+            font-weight: bolder;
+            background-color: red;
+            font-size: 20px;
         }
         & h2{
             margin: 0 0 10px 0;
@@ -157,6 +160,7 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         z-index: 1;
+     
     }
   }
 
